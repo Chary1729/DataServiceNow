@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function($scope) {
+  /* widget controller */
+  var c = this;
+	c.addItem=function()
+	{
+		c.server.update().then(function(response)
+													{
+			c.data={};
+		})
+	}
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description>This is the list of data</description>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>list</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>DataList</name>
+        <option_schema/>
+        <public>true</public>
+        <roles>admin</roles>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+	if(!input)
+		return;
+	var gr=new GlideRecord('x_460481_dataretri_datatable');
+	gr.initialize();
+
+	gr.newdate=input.date;
+	gr.manaperu=input.name;
+	gr.insert();
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-10 15:36:58</sys_created_on>
+        <sys_id>d1d6f5d20780501014bdf0269c1ed08a</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>DataList</sys_name>
+        <sys_package display_value="DataRetrival" source="x_460481_dataretri">0d0ae9960740501014bdf0269c1ed0da</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DataRetrival">0d0ae9960740501014bdf0269c1ed0da</sys_scope>
+        <sys_update_name>sp_widget_d1d6f5d20780501014bdf0269c1ed08a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-11 06:24:16</sys_updated_on>
+        <template><![CDATA[<div class="anel panel-default">
+   <div class="panel-body">
+            <div class="form-group">
+              <label>Date</label>
+               <input class="form-control" ng-model="c.data.date" type="date">
+
+            </div>					
+            <div class = "form-group">
+              <label>Name</label>
+             <input class="form-control" ng-model="c.data.name">
+            </div>
+     			 <div class ="form-group">
+            <input class="btn btn-primary btn-block" ng-click="c.addItem()" type="submit">
+     </div>
+  </div>
+</div>
+         
+   								]]></template>
+    </sp_widget>
+</record_update>

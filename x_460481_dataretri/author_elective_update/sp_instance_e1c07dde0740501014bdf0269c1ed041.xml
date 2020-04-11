@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">41907dde0740501014bdf0269c1ed03b</sp_column>
+        <sp_widget display_value="My Requests">8cc0df25875023000f220cf888cb0bb5</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-10 15:08:40</sys_created_on>
+        <sys_id>e1c07dde0740501014bdf0269c1ed041</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="DataRetrival" source="x_460481_dataretri">0d0ae9960740501014bdf0269c1ed0da</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DataRetrival">0d0ae9960740501014bdf0269c1ed0da</sys_scope>
+        <sys_update_name>sp_instance_e1c07dde0740501014bdf0269c1ed041</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-10 15:08:40</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=e1c07dde0740501014bdf0269c1ed041"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="DataRetrival">0d0ae9960740501014bdf0269c1ed0da</application>
+        <file_path/>
+        <instance_id>ab162155dbca3bc4387021c405961941</instance_id>
+        <instance_name>dev87156</instance_name>
+        <name>sp_instance_e1c07dde0740501014bdf0269c1ed041</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>1</order><roles/><short_description/><size>md</size><sp_column display_value="1">41907dde0740501014bdf0269c1ed03b</sp_column><sp_widget display_value="My Requests">8cc0df25875023000f220cf888cb0bb5</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-04-10 15:08:40</sys_created_on><sys_id>e1c07dde0740501014bdf0269c1ed041</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="DataRetrival" source="x_460481_dataretri">0d0ae9960740501014bdf0269c1ed0da</sys_package><sys_policy/><sys_scope display_value="DataRetrival">0d0ae9960740501014bdf0269c1ed0da</sys_scope><sys_update_name>sp_instance_e1c07dde0740501014bdf0269c1ed041</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-04-10 15:08:40</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=e1c07dde0740501014bdf0269c1ed041"/></record_update>]]></payload>
+        <payload_hash>283163715</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>410ae9960740501014bdf0269c1ed0dd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-10 15:08:40</sys_created_on>
+        <sys_id>61c07dde0740501014bdf0269c1ed043</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17164a2c2cf0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-10 15:08:40</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>a9c07dde4b405010682301cb6b591c42</update_guid>
+        <update_guid_history>a9c07dde4b405010682301cb6b591c42:283163715</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">08e0fdde0740501014bdf0269c1ed0d0</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-10 15:09:06</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>0a43d898f3e24740a32141439408ba40</sys_id>
+        <sys_metadata>e1c07dde0740501014bdf0269c1ed041</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="DataRetrival" source="x_460481_dataretri">0d0ae9960740501014bdf0269c1ed0da</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="DataRetrival">0d0ae9960740501014bdf0269c1ed0da</sys_scope>
+        <sys_scope_delete display_value="">314398ea389b4bf597358f9545dcb8c9</sys_scope_delete>
+        <sys_update_name>sp_instance_e1c07dde0740501014bdf0269c1ed041</sys_update_name>
+        <sys_update_version display_value="sp_instance_e1c07dde0740501014bdf0269c1ed041">61c07dde0740501014bdf0269c1ed043</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-10 15:09:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

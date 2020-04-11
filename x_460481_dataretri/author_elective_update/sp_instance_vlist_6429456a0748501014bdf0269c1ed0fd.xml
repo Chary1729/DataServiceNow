@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_vlist">
+    <sp_instance_vlist action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <display_field/>
+        <field_list/>
+        <filter/>
+        <glyph/>
+        <id/>
+        <maximum_entries>5</maximum_entries>
+        <order>1</order>
+        <order_by/>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">e519056e0748501014bdf0269c1ed056</sp_column>
+        <sp_page/>
+        <sp_widget display_value="Simple List">5b255672cb03020000f8d856634c9c28</sp_widget>
+        <sys_class_name>sp_instance_vlist</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-11 06:53:56</sys_created_on>
+        <sys_id>6429456a0748501014bdf0269c1ed0fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="DataRetrival" source="x_460481_dataretri">0d0ae9960740501014bdf0269c1ed0da</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DataRetrival">0d0ae9960740501014bdf0269c1ed0da</sys_scope>
+        <sys_update_name>sp_instance_vlist_6429456a0748501014bdf0269c1ed0fd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-11 06:53:56</sys_updated_on>
+        <table/>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_vlist>
+    <sys_translated_text action="DELETE" query="documentkey=6429456a0748501014bdf0269c1ed0fd"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="DataRetrival">0d0ae9960740501014bdf0269c1ed0da</application>
+        <file_path/>
+        <instance_id>ab162155dbca3bc4387021c405961941</instance_id>
+        <instance_name>dev87156</instance_name>
+        <name>sp_instance_vlist_6429456a0748501014bdf0269c1ed0fd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_vlist"><sp_instance_vlist action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><display_field/><field_list/><filter/><glyph/><id/><maximum_entries>5</maximum_entries><order>1</order><order_by/><order_direction>asc</order_direction><roles/><short_description/><size>md</size><sp_column display_value="1">e519056e0748501014bdf0269c1ed056</sp_column><sp_page/><sp_widget display_value="Simple List">5b255672cb03020000f8d856634c9c28</sp_widget><sys_class_name>sp_instance_vlist</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-04-11 06:53:56</sys_created_on><sys_id>6429456a0748501014bdf0269c1ed0fd</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="DataRetrival" source="x_460481_dataretri">0d0ae9960740501014bdf0269c1ed0da</sys_package><sys_policy/><sys_scope display_value="DataRetrival">0d0ae9960740501014bdf0269c1ed0da</sys_scope><sys_update_name>sp_instance_vlist_6429456a0748501014bdf0269c1ed0fd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-04-11 06:53:56</sys_updated_on><table/><title/><url/><widget_parameters/></sp_instance_vlist><sys_translated_text action="delete_multiple" query="documentkey=6429456a0748501014bdf0269c1ed0fd"/></record_update>]]></payload>
+        <payload_hash>-1814794052</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>410ae9960740501014bdf0269c1ed0dd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-11 06:53:57</sys_created_on>
+        <sys_id>6029056e0748501014bdf0269c1ed0f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17168042f980000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-11 06:53:57</sys_updated_on>
+        <type>Instance of Simple List</type>
+        <update_guid>a829456afe485010746cdf4e43604afe</update_guid>
+        <update_guid_history>a829456afe485010746cdf4e43604afe:-1814794052</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">6e29456e0748501014bdf0269c1ed040</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-11 06:54:05</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_vlist">sp_instance_vlist</sys_db_object>
+        <sys_id>7b2d81e7e3ce4838947373c40f64b069</sys_id>
+        <sys_metadata>6429456a0748501014bdf0269c1ed0fd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="DataRetrival" source="x_460481_dataretri">0d0ae9960740501014bdf0269c1ed0da</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="DataRetrival">0d0ae9960740501014bdf0269c1ed0da</sys_scope>
+        <sys_scope_delete display_value="">314398ea389b4bf597358f9545dcb8c9</sys_scope_delete>
+        <sys_update_name>sp_instance_vlist_6429456a0748501014bdf0269c1ed0fd</sys_update_name>
+        <sys_update_version display_value="sp_instance_vlist_6429456a0748501014bdf0269c1ed0fd">6029056e0748501014bdf0269c1ed0f6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-11 06:54:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
